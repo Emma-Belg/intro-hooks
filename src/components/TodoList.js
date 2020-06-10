@@ -21,8 +21,8 @@ function Todo({index, todo, completeTodo, deleteTodo}) {
         >
             {todo.text}
             <div>
-                <button className="complete" onClick={() => completeTodo(index)}>Complete</button>
-                <button className="delete" onClick={() => deleteTodo(index)}>Delete</button>
+                <button className="complete" onClick={() => completeTodo(index)}>✓</button>
+                <button className="delete" onClick={() => deleteTodo(index)}>✘</button>
             </div>
         </div>
     );
