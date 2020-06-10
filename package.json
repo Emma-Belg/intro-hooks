@@ -1,4 +1,5 @@
 {
+  "homepage": "https://emma-belg.github.io/intro-hooks/",
   "name": "intro-hooks",
   "version": "0.1.0",
   "private": true,
@@ -30,5 +31,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.0.0"
   }
 }
