@@ -7,16 +7,16 @@ The youtube tutorial is based on [this text tutorial](https://scotch.io/tutorial
 Deployed react app using:  
 1. in terminal: `npm install gh-pages --save-dev`
 2. in package.json:  
-  a. At the very top: `"homepage": "https://emma-belg.github.io/intro-hooks/"`
+  a. At the very top: `"homepage": "https://emma-belg.github.io/intro-hooks/"`  
   b. Inside of the scripts object: 
   ```    
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build"
   ```
-3. save everything, push everything
-4. make an environment on github
-5. push everything
-6. in terminal:  `npm run deploy`.
+3. save everything, push everything  
+4. make an environment on github  
+5. push everything  
+6. in terminal:  `npm run deploy`.  
 7. go into the environment settings on github and change the branch to the gh-pages branch.  
   
 You should now be able to see your app on github.  
