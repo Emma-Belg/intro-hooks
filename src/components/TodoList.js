@@ -12,7 +12,7 @@ import '../App.css';
         </div>
     )
 }*/
-    
+
 //here it is with destructuring
 function Todo({index, todo, completeTodo, deleteTodo}) {
     return (
